@@ -21,7 +21,7 @@ puts "5 skills created"
     title: "portfolio title #{portfolio_item}",
     subtitle: 'my great service',
     body: 'butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt butt',
-    main_image: "http://via.placeholder.com/600x400",
+    main_image: "http://via.placeholder.com/600x4 00",
     thumb_image: "http://via.placeholder.com/350x200"
   )
 end

@@ -1,4 +1,5 @@
 class PortfoliosController < ApplicationController
+  layout 'portfolio'
   def index
     @portfolio_items = Portfolio.all
   end
@@ -55,7 +56,7 @@ class PortfoliosController < ApplicationController
   end
 
 private
- 
+
   def portfolio_params
     params.require(:portfolio).permit(:title,
                                       :subtitle,

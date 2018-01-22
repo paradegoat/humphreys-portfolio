@@ -29,7 +29,7 @@ puts "5 skills created"
     title: "portfolio title #{portfolio_item}",
     subtitle: 'Ruby on Rails',
     body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis cursus dignissim. Suspendisse lacus erat, dignissim eu blandit non, dictum a tortor. Vestibulum accumsan dapibus libero faucibus faucibus. Pellentesque rhoncus pellentesque nunc at egestas. Morbi ultrices sapien quis ligula venenatis sagittis. Proin faucibus orci vel risus ullamcorper ultrices. Morbi viverra ornare mauris, eu hendrerit justo viverra dignissim. Morbi nec blandit enim, ut laoreet nunc. Pellentesque metus eros, feugiat vel purus at, egestas sollicitudin quam. Maecenas non vestibulum massa. Phasellus dictum massa pharetra, placerat dui gravida, efficitur mauris. Morbi vitae laoreet nisl, sed bibendum massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a risus ligula. Morbi egestas mi sed nisi mollis semper. In hac habitasse platea dictumst.',
-    main_image: "http://via.placeholder.com/600x4 00",
+    main_image: "http://via.placeholder.com/600x400",
     thumb_image: "http://via.placeholder.com/350x200"
   )
 end
@@ -39,7 +39,7 @@ end
     title: "portfolio title #{portfolio_item}",
     subtitle: 'angular',
     body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis cursus dignissim. Suspendisse lacus erat, dignissim eu blandit non, dictum a tortor. Vestibulum accumsan dapibus libero faucibus faucibus. Pellentesque rhoncus pellentesque nunc at egestas. Morbi ultrices sapien quis ligula venenatis sagittis. Proin faucibus orci vel risus ullamcorper ultrices. Morbi viverra ornare mauris, eu hendrerit justo viverra dignissim. Morbi nec blandit enim, ut laoreet nunc. Pellentesque metus eros, feugiat vel purus at, egestas sollicitudin quam. Maecenas non vestibulum massa. Phasellus dictum massa pharetra, placerat dui gravida, efficitur mauris. Morbi vitae laoreet nisl, sed bibendum massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a risus ligula. Morbi egestas mi sed nisi mollis semper. In hac habitasse platea dictumst.',
-    main_image: "http://via.placeholder.com/600x4 00",
+    main_image: "http://via.placeholder.com/600x400",
     thumb_image: "http://via.placeholder.com/350x200"
   )
 end

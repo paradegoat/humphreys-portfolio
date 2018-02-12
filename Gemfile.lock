@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/paradegoat/TrumperyViewTool
+  revision: 1f456f0d835ba7f24e8c2e4eaeae204c795117a2
+  specs:
+    TrumperyViewTool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -183,6 +189,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  TrumperyViewTool!
   bootstrap (~> 4.0.0)
   byebug
   coffee-rails (~> 4.2)

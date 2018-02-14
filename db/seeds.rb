@@ -3,17 +3,18 @@
     title: "Topic #{topic}"
   )
 end
+
 puts "3 Topics created"
 
 10.times do |blog|
   Blog.create!(
-    title: "my blog post #{blog}",
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis cursus dignissim. Suspendisse lacus erat, dignissim eu blandit non, dictum a tortor. Vestibulum accumsan dapibus libero faucibus faucibus. Pellentesque rhoncus pellentesque nunc at egestas. Morbi ultrices sapien quis ligula venenatis sagittis. Proin faucibus orci vel risus ullamcorper ultrices. Morbi viverra ornare mauris, eu hendrerit justo viverra dignissim. Morbi nec blandit enim, ut laoreet nunc. Pellentesque metus eros, feugiat vel purus at, egestas sollicitudin quam. Maecenas non vestibulum massa. Phasellus dictum massa pharetra, placerat dui gravida, efficitur mauris. Morbi vitae laoreet nisl, sed bibendum massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a risus ligula. Morbi egestas mi sed nisi mollis semper. In hac habitasse platea dictumst.',
+    title: "My Blog Post #{blog}",
+    body: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
     topic_id: Topic.last.id
   )
 end
 
-puts "10 blog post created"
+puts "10 blog posts created"
 
 5.times do |skill|
   Skill.create!(
@@ -26,21 +27,21 @@ puts "5 skills created"
 
 8.times do |portfolio_item|
   Portfolio.create!(
-    title: "portfolio title #{portfolio_item}",
-    subtitle: 'Ruby on Rails',
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis cursus dignissim. Suspendisse lacus erat, dignissim eu blandit non, dictum a tortor. Vestibulum accumsan dapibus libero faucibus faucibus. Pellentesque rhoncus pellentesque nunc at egestas. Morbi ultrices sapien quis ligula venenatis sagittis. Proin faucibus orci vel risus ullamcorper ultrices. Morbi viverra ornare mauris, eu hendrerit justo viverra dignissim. Morbi nec blandit enim, ut laoreet nunc. Pellentesque metus eros, feugiat vel purus at, egestas sollicitudin quam. Maecenas non vestibulum massa. Phasellus dictum massa pharetra, placerat dui gravida, efficitur mauris. Morbi vitae laoreet nisl, sed bibendum massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a risus ligula. Morbi egestas mi sed nisi mollis semper. In hac habitasse platea dictumst.',
-    main_image: "http://via.placeholder.com/600x400",
-    thumb_image: "http://via.placeholder.com/350x200"
+    title: "Portfolio title: #{portfolio_item}",
+    subtitle: "Ruby on Rails",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    main_image: "http://placehold.it/600x400",
+    thumb_image: "http://placehold.it/350x200"
   )
 end
 
 1.times do |portfolio_item|
   Portfolio.create!(
-    title: "portfolio title #{portfolio_item}",
-    subtitle: 'angular',
-    body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis cursus dignissim. Suspendisse lacus erat, dignissim eu blandit non, dictum a tortor. Vestibulum accumsan dapibus libero faucibus faucibus. Pellentesque rhoncus pellentesque nunc at egestas. Morbi ultrices sapien quis ligula venenatis sagittis. Proin faucibus orci vel risus ullamcorper ultrices. Morbi viverra ornare mauris, eu hendrerit justo viverra dignissim. Morbi nec blandit enim, ut laoreet nunc. Pellentesque metus eros, feugiat vel purus at, egestas sollicitudin quam. Maecenas non vestibulum massa. Phasellus dictum massa pharetra, placerat dui gravida, efficitur mauris. Morbi vitae laoreet nisl, sed bibendum massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris a risus ligula. Morbi egestas mi sed nisi mollis semper. In hac habitasse platea dictumst.',
-    main_image: "http://via.placeholder.com/600x400",
-    thumb_image: "http://via.placeholder.com/350x200"
+    title: "Portfolio title: #{portfolio_item}",
+    subtitle: "Angular",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    main_image: "http://placehold.it/600x400",
+    thumb_image: "http://placehold.it/350x200"
   )
 end
 
@@ -51,4 +52,5 @@ puts "9 portfolio items created"
     name: "Technology #{technology}"
   )
 end
-puts "3 technologies items created"
+
+puts "3 technologies created"

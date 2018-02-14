@@ -1,6 +1,18 @@
-<div class="card"  data-id="<%= portfolio_item.id %>">
-  <%= image_tag portfolio_item.thumb_image unless portfolio_item.thumb_image.nil? %>
-  <p class="card-text">
-    <span><%= link_to portfolio_item.title, portfolio_show_path(portfolio_item) %></span> <%= portfolio_item.subtitle %>
-  </p>
+
+<div class="col-md-4 card-box">
+  <div class="card mb-4 box-shadow" data-id="<%= portfolio_item.id %>">
+    <a href='<%= portfolio_show_path(portfolio_item) %>'>
+      <%= image_tag portfolio_item.thumb_image, width: '100%' unless portfolio_item.thumb_image.nil? %>
+    </a>
+    <div class="card-body">
+      <p class="card-text text-center">
+        <span><%= link_to portfolio_item.title, portfolio_show_path(portfolio_item) %></span>
+        <br />
+         <%= portfolio_item.subtitle %>
+      </p>
+
+    </div>
+
+  </div>
+
 </div>

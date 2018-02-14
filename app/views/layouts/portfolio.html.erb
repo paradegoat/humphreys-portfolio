@@ -14,12 +14,12 @@
   <header>
     <%= render 'shared/portfolio_nav' %>
   </header>
-  <main role="main">
+
     <%= render 'shared/portfolio_masthead' unless logged_in?(:site_admin) %>
 
     <%= yield %>
 
-  </main>
+
   <%= render 'shared/portfolio_footer' %>
   <%= source_helper("application") %>
 

@@ -230,9 +230,8 @@ h6, .h6 {
   color: green;
 }
 
-.app-card-container {
+.app-card-container-fluid {
   color: black;
-  text-align: left;
   opacity: .9;
 }
 
@@ -246,4 +245,9 @@ h6, .h6 {
 
 .app-card-container a {
   color: blue;
+}
+
+.card{
+  padding-bottom: 30px;
+  padding-top: 30px;
 }

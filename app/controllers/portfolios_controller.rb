@@ -3,6 +3,7 @@ class PortfoliosController < ApplicationController
    access all: [:show, :index, :angular], user: {except: [:destroy, :new, :create, :update, :edit, :sort]}, site_admin: :all
   def index
     @portfolio_items = Portfolio.by_position
+    @page_title = "Geoff Humphreys - Portfolio"
   end
 
   def sort

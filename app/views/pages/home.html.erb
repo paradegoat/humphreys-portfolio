@@ -1,7 +1,28 @@
 <div class="inner cover">
-  <h1 class="cover-heading">Cover your page.</h1>
-  <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-  <p class="lead">
- <%= link_to "About Me", about_me_path, class: "btn btn-lg btn-secondary" %>
-  </p>
+  <h1 class="cover-heading ">Just trying to make it better</h1>
+  <p class="lead">Something about me to make you continue to look around.</p>
+
+  <div class="row justify-content-center">
+    <figure class="icon-link hovereffect my-container">
+      <div class="top-top">
+        <%= link_to image_tag("placeholder-icon.png", width: 200), portfolios_path %>
+        <figcaption>Portfolio</figcaption>
+      </div>
+      </figure>
+    <figure class="icon-link hovereffect my-container">
+      <%= link_to image_tag("placeholder-icon.png", width: 200), blogs_path %>
+      <figcaption>Blog</figcaption>
+    </figure>
+    </div>
+      <div class="row justify-content-center">
+    <figure class="icon-link hovereffect my-container">
+      <%= link_to image_tag("placeholder-icon.png", width: 200), about_me_path %>
+      <figcaption>About Me</figcaption>
+    </figure>
+    <figure class="icon-link hovereffect my-container">
+      <%= link_to image_tag("placeholder-icon.png", width: 200), contact_path %>
+      <figcaption>Contact</figcaption>
+    </figure>
+  </div>
+
 </div>

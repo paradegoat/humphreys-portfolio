@@ -92,7 +92,7 @@ h6, .h6 {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: #b7eef4;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -100,7 +100,7 @@ h6, .h6 {
 }
 
 .nav-masthead .active {
-  color: #fff;
+  color: #b7eef4;
   border-bottom-color: #fff;
 }
 
@@ -112,6 +112,89 @@ h6, .h6 {
     float: right;
   }
 }
+
+.icon-link{
+  // border: 1px solid #b7eef4;
+  padding: 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vw;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 10%;
+}
+
+
+.hovereffect {
+  border: 1px solid #b7eef4;
+  // text-align: center;
+  cursor: default;
+}
+
+
+.hovereffect img {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.hovereffect:hover img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+
+.my-container {
+    position: relative;
+    background: transparent;
+    overflow: hidden;
+}
+.my-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.2;
+    background: white;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.my-container img{
+  z-index: 2;
+}
+
+.my-container figcaption{
+  z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*

@@ -93,3 +93,41 @@ footer p {
     overflow-y: scroll;
     overflow-x:hidden;
 }
+
+.portfolio-masthead{
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-masthead:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: image-url('profile.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-masthead h1{
+  z-index: 2;
+  position: relative;
+  color: #353a3f;
+}
+
+.portfolio-masthead p{
+  margin-left: 13vw;
+  z-index: 2;
+  position: relative;
+  color: #353a3f;
+}

@@ -114,7 +114,7 @@ footer {
  ////// portfolio-nav  //////////////
  //////////////////////////////////////////////////////////
  .port-nav {
-   border-bottom: .5px solid #e6e6e6;
+   border-bottom: .5px solid #d9fcf5;
  }
 
  .port-nav-color {
@@ -257,14 +257,14 @@ transform: scale(2);
 .breaker{
   background-color: #DC384B;
   // height: 15vw;
-  border-top: .5px solid #e6e6e6;
-  border-bottom: .5px solid #e6e6e6;
+  border-top: .5px solid #d9fcf5;
+  border-bottom: .5px solid #d9fcf5;
 }
 
 
 .breaker-icon {
   position: relative;
-  color: #e6e6e6;
+  color: #d9fcf5;
   margin-left: 2vw;
   margin-right: 2vw;
   margin-top: 1rem;
@@ -318,7 +318,7 @@ transform: scale(2);
 
 
 .hive-icon-text{
-  color: #d9fcf5;
+  color: white;
   font-size: 150%;
   font-family: 'Red Moon Rising';
 
@@ -346,8 +346,17 @@ transform: scale(2);
     height: 550px;
     object-fit: cover;
     object-position: top;
-    border: 2px solid #e5e3e3;
+    border: 2px solid #d9fcf5;
     padding: 3px;
+}
+
+.card-body {
+  font-family: 'Raleway', sans-serif;
+  color: #3b817c;
+}
+
+.project-title{
+  font-size: 300%;
 }
 
 .portfolio-container {
@@ -425,27 +434,20 @@ color: #d9fcf5;
 }
 
 .pink {
-  border: 2px solid pink;
+  // border: 2px solid pink;
   border-radius: 1vw;
-  background-color:rgba(204, 70, 79, 0.8);
-  padding: 1vw;
+  background-color:rgba(204, 70, 79, 0.3);
+  // padding: 1vw;
 }
 
 
 
 
 
-// .alpha {
-//   // font-size: 3.4rem;
-//   // position: absolute;
-//   // top: 10.5rem;
-//   // left: 10%;
-//   opacity: 1;
-//   // color: #F0A3BE;
-//   animation-name: fadeInOut;
-//   animation-delay: .5s;
-//   animation-duration: 2s;
-// }
+.alpha {
+  height: 10vw;
+  width: 10vw;
+}
 
 
 body:hover {
@@ -498,7 +500,7 @@ body:hover {
 
 .port-icon {
   position: relative;
-  color: #e6e6e6;
+  color: #d9fcf5;
   margin-left: 2vw;
   margin-right: 2vw;
   margin-top: 1rem;
@@ -553,5 +555,5 @@ body:hover {
   padding: 1vw 3vw;
   margin-top: 3vw;
   // border: 1px solid grey;
-  background-color:rgba(217, 252, 245,0.8);
+  background-color:rgba(217, 252, 245,0.9);
 }

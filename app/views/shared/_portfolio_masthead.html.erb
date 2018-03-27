@@ -1,12 +1,71 @@
+
 <div class="portfolio-masthead">
-<section class="jumbotron text-right">
-    <div class="container">
-      <h1 class="jumbotron-heading text-center">Here's some stuff!</h1>
-      <p class="lead text-left">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-      <p class="text-center">
-       <%= link_to 'Find Out More About Me', about_me_path, class: 'btn btn-secondary' %>
-       <%= link_to 'My Blog', blogs_path, class: 'btn btn-secondary' %>
-     </p>
+
+  <%= image_tag(
+    'honeycomb-flutter-25percent.gif',
+    id: 'overlay-img',
+    autoplay: true,
+    loop: true,
+    muted: true
+  )
+  %>
+
+  <section class="jumbotron container-fluid">
+
+    <div class="row mast-row">
+      <div class="col align-self-center">
+        <h1 class="jumbotron-heading text-center">welcome to my honey trap</h1>
+      </div>
     </div>
+
+    <div class="row mast-row">
+      <p class="col-lg-4 offset-lg-8 col-md-6 offset-md-8 col-sm-4 offset-6 align-self-center">
+        <%= link_to 'Resume', about_me_path, class: 'btn btn-lg btn-secondary mast-button' %>
+      </p>
+    </div>
+
+    <div class="row mast-row justify-content-center">
+      <p class="col-lg-4 col-md-5 col-sm-10 align-self-center text-center alpha">Developer / Beekeeper / Nice person </p>
+    </div>
+
   </section>
+</div>
+
+<div class="breaker">
+  <div class="container">
+    <div class="row justify-content-around">
+      <figure>
+        <div class="breaker-icon">
+        <%= link_to image_tag("github.png"), "http://github.com/paradegoat/", :target => "_blank" %>
+        </div>
+        <figcaption class="hive-icon-text text-center">
+          github
+        </figcaption>
+      </figure>
+      <figure>
+        <div class="breaker-icon">
+        <%= link_to image_tag("linkedin.png"), "https://www.linkedin.com/in/geoff-humphreys", :target => "_blank" %>
+        </div>
+        <figcaption class="hive-icon-text text-center">
+          linkedin
+        </figcaption>
+      </figure>
+      <figure>
+        <div class="breaker-icon">
+        <%= link_to image_tag("connect.png"), contact_path %>
+        </div>
+        <figcaption class="hive-icon-text text-center">
+          contact
+        </figcaption>
+      </figure>
+      <figure>
+        <div class="breaker-icon">
+        <%= link_to image_tag("down-arrow.png"), "#section2" %>
+        </div>
+        <figcaption class="hive-icon-text text-center">
+          recent work
+        </figcaption>
+      </figure>
+    </div>
+  </div>
 </div>

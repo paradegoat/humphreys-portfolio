@@ -2,6 +2,10 @@
 @import "gritter";
 
 
+// FONTS //
+// font-family: 'Red Moon Rising';
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Mina', sans-serif;
 /*
  * Globals
  */
@@ -48,7 +52,11 @@ h6, .h6 {
   font-family: 'Raleway', sans-serif;
 }
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
+/////////////////////////////////////////////
+/////////////////////////////////////////////
+///////////  HOMEPAGE   ////////////////////
+/////////////////////////////////////////////
+/////////////////////////////////////////////
 .site-wrapper {
   display: table;
   width: 100%;
@@ -85,11 +93,20 @@ h6, .h6 {
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  color: white;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
+  font-family: 'Red Moon Rising';
+  letter-spacing: .1vw;
+  font-size: 1.25rem;
 }
 
+.navbar {
+  justify-content: space-around;
+}
+.navbar-brand {
+  float: left;
+}
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: #b7eef4;
@@ -105,96 +122,13 @@ h6, .h6 {
 }
 
 @media (min-width: 48em) {
-  .masthead-brand {
+  .navbar-brand {
     float: left;
   }
-  .nav-masthead {
-    float: right;
-  }
+  // .nav-masthead {
+  //   float: right;
+  // }
 }
-
-.icon-link{
-  // border: 1px solid #b7eef4;
-  padding: 1vw;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  margin-top: 1vw;
-  font-family: 'Raleway', sans-serif;
-  border-radius: 10%;
-}
-
-
-.hovereffect {
-  border: 1px solid #b7eef4;
-  // text-align: center;
-  cursor: default;
-}
-
-
-.hovereffect img {
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.hovereffect img {
-  display: block;
-  position: relative;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.hovereffect:hover img {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-
-
-.my-container {
-    position: relative;
-    background: transparent;
-    overflow: hidden;
-}
-.my-container:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.2;
-    background: white;
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
-.my-container img{
-  z-index: 2;
-}
-
-.my-container figcaption{
-  z-index: 2;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -248,7 +182,7 @@ h6, .h6 {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 65rem;
+    width: 42rem;
   }
 }
 
@@ -278,8 +212,8 @@ h6, .h6 {
 }
 
 .app-nav span {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 #background {
@@ -297,8 +231,16 @@ h6, .h6 {
 }
 
 .app-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
   color: white;
+  border-top: .05rem solid #e5e5e5;
 }
+
 
 .tech-news {
   color: black;
@@ -313,9 +255,11 @@ h6, .h6 {
   color: green;
 }
 
-.app-card-container-fluid {
+.content-card {
   color: black;
   opacity: .9;
+  width: 75%;
+  margin-top: 3vw;
 }
 
 .app-card-container > .card {
@@ -333,4 +277,58 @@ h6, .h6 {
 .card{
   padding-bottom: 30px;
   padding-top: 30px;
+}
+
+.about-header {
+  font-family: 'Mina', sans-serif;
+}
+
+.about-body {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+}
+.contact-header {
+  font-family: 'Mina', sans-serif;
+}
+.contact-body {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+}
+
+
+/* None relevant included styling */
+//
+// body,
+// html {
+//   overflow: visible;
+//   height: 100%;
+//   width: 100%;
+// }
+//
+// h1 {
+//   font-size: 50px;
+//   font-family: 'Merriweather', serif !important;
+//   margin-top: -90px;
+//   text-shadow: 1px 1px 1px #000;
+// }
+//
+// p {
+//   font-weight: 300;
+//    text-shadow: 1px 1px 1px #000;
+//   font-family:'Lato', sans-serif !important;
+// }
+//
+// nav {
+//   border-radius: 0px !important;
+//   margin-bottom: 0px !important;
+// }
+
+
+// .modal-body {
+//   height: 400px;
+// }
+
+.navbar-toggler {
+  color: #000;
+  font-size: 2.25rem;
 }

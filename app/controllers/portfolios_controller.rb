@@ -69,6 +69,8 @@ private
   def portfolio_params
     params.require(:portfolio).permit(:title,
                                       :subtitle,
+                                      :Live_Site,
+                                      :git_url,
                                       :body,
                                       :main_image,
                                       :thumb_image,

@@ -1,21 +1,21 @@
-<div class="collapse bg-dark" id="navbarHeader">
+<div class="collapse port-nav-color" id="navbarHeader">
   <div class="container">
     <div class="row">
       <div class="col-sm-8 col-md-7 py-4">
-        <h4 class="text-white">About</h4>
-        <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+        <h2 class="nav-inner-title">Thanks for stopping by</h2>
+        <p class="nav-inner-body">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
       </div>
       <div class="col-sm-4 offset-md-1 py-4">
-        <h4 class="text-white">explore</h4>
+        <h2 class="nav-inner-title">explore</h2>
         <ul class="list-unstyled">
-          <%= nav_helper 'text-white', 'li' %>
-          <li><%= login_helper 'text-white' %></li>
+          <%= nav_helper 'nav-inner-body', 'li' %>
+          <!-- <li><%= login_helper 'text-white' %></li> -->
         </ul>
       </div>
     </div>
   </div>
 </div>
-<div class="navbar navbar-dark bg-dark box-shadow">
+<div class="navbar navbar-dark port-nav-color port-nav box-shadow">
   <div class="container d-flex justify-content-between">
     <%= link_to "Geoff Humphreys", root_path, class: 'navbar-brand' %>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">

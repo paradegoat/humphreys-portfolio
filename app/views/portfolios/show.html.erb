@@ -1,25 +1,53 @@
 <div class="container portfolio-container">
-  <div class="row">
-    <div class="pic-container col-md-7">
-      <%= image_tag portfolio_img(@portfolio_item.main_image, 'main'), width: '100%' %>
-    </div>
+  <div class="row blue">
 
-    <div class="col-md-5">
-      <h1><%= @portfolio_item.title %></h1>
+
+    <div class="col-lg-4 split-lev text-side pink">
+      <h1 class="show-port-title text-uppercase"><%= @portfolio_item.title %></h1>
 
       <hr>
 
-      <em><%= @portfolio_item.subtitle %></em>
+      <em class="show-port-subtitle"><%= @portfolio_item.subtitle %></em>
 
-      <p><%= markdown @portfolio_item.body %></p>
+      <p class="show-port-body"><%= markdown @portfolio_item.body %></p>
 
       <hr>
 
-      <h3>Technologies Used:</h3>
+      <h3 class="show-tech-title">Technologies Used:</h3>
 
       <% @portfolio_item.technologies.each do |t| %>
-      <p><%= t.name %></p>
+      <p class="show-tech-name"><%= t.name %></p>
       <% end %>
+
+
+
+      <div class="row justify-content-around">
+
+        <div class="col-6 green text-center">
+          <figure>
+            <div class="breaker-icon">
+              <%= link_to image_tag("live-site.png"), "https://www.linkedin.com/in/geoff-humphreys", :target => "_blank" %>
+            </div>
+            <figcaption class="hive-icon-text">
+              finished product
+            </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-6 text-center">
+            <figure>
+              <div class="breaker-icon">
+                <%= link_to image_tag("honey-comb.png"), "https://www.linkedin.com/in/geoff-humphreys", :target => "_blank" %>
+              </div>
+              <figcaption class="hive-icon-text">
+                code on github
+              </figcaption>
+            </figure>
+            </div>
+
+          </div>
+
+
     <% if logged_in?(:site_admin) %>
       <div>
         <%= link_to "Edit Item", edit_portfolio_path(@portfolio_item), class: "btn btn-warning" %>
@@ -28,6 +56,9 @@
         <%= link_to "Delete Item", @portfolio_item, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %>
       </div>
       <% end %>
+    </div>
+    <div class="screenshot-side split-lev col-lg-7 col-xs-12 pink">
+      <%= image_tag portfolio_img(@portfolio_item.main_image, 'main'), width: '100%' %>
     </div>
   </div>
 </div>

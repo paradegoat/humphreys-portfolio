@@ -38,7 +38,7 @@ module ApplicationHelper
         title: 'Sample Blog'
       },
       {
-        url: portfolios_path,
+        url: portfolio_index_path,
         title: 'Portfolio'
       }
       # {

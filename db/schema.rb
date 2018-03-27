@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180327163420) do
+ActiveRecord::Schema.define(version: 20180327201248) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -60,6 +60,8 @@ ActiveRecord::Schema.define(version: 20180327163420) do
     t.integer "position"
     t.text "Live_Site"
     t.text "git_url"
+    t.string "slug"
+    t.index ["slug"], name: "index_portfolios_on_slug", unique: true
   end
 
   create_table "skills", force: :cascade do |t|

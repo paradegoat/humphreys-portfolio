@@ -8,24 +8,20 @@
     <%= csrf_meta_tags %>
 
     <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Mina|Raleway" rel="stylesheet">
     <meta name="keywords" content="<%= @seo_keywords %>" />
 
     <%= favicon_link_tag 'favicons/crystal-ball.ico' %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <%= video_tag(
-             'star-bleach-slo-mo-fade-2.mp4',
+          <%= image_tag(
+             'sidescroll-star-alpha.gif',
              id: 'background',
              autoplay: true,
-             loop: false,
+             loop: true,
              muted: true
              # poster: 'star-background.png'
            )
@@ -38,9 +34,5 @@
           <%= render "shared/application_footer" %>
 
           <%= alerts %>
-
-        </div>
-      </div>
-    </div>
   </body>
 </html>

@@ -118,7 +118,7 @@ footer {
  }
 
  .port-nav-color {
-   background-color: #DC384B;
+   background-color: #3f281a;
    opacity: .9;
  }
 
@@ -220,7 +220,7 @@ transform: scale(2);
 .mast-button{
   font-size: 100%;
   color: #d9fcf5;
-  background-color: #F88996;
+  background-color: #997238;
   visibility: hidden;
 }
 
@@ -255,10 +255,11 @@ transform: scale(2);
 
 
 .breaker{
-  background-color: #DC384B;
+  background-color: #3f281a;
   // height: 15vw;
   border-top: .5px solid #d9fcf5;
   border-bottom: .5px solid #d9fcf5;
+  opacity: .9;
 }
 
 
@@ -271,7 +272,7 @@ transform: scale(2);
   padding: 1rem;
   z-index: 2;
   opacity: .9;
-  background-color: #F88996;
+  background-color: #997238;
   border-radius: 100%;
   display: inline-block;
   text-align: center;
@@ -352,7 +353,7 @@ transform: scale(2);
 
 .card-body {
   font-family: 'Raleway', sans-serif;
-  color: #3b817c;
+  color: #d9fcf5;
 }
 
 .project-title{
@@ -406,7 +407,7 @@ color: #d9fcf5;
 //////////////////////////////////////////////////////////
 
 .port-footer, .port-footer a {
-  color: #DC384B;
+  color: #3f281a;
   font-family: 'Red Moon Rising';
   // font-size: 125%;
   text-decoration: none;
@@ -507,7 +508,7 @@ body:hover {
   padding: 1rem;
   z-index: 2;
   opacity: .9;
-  background-color: #F88996;
+  background-color: #997238;
   border-radius: 100%;
   display: inline-block;
   text-align: center;
@@ -551,9 +552,48 @@ body:hover {
 }
 
 .sheet {
-  // padding: 1vw;
-  padding: 1vw 3vw;
+  padding: 3vw 3vw;
   margin-top: 3vw;
-  // border: 1px solid grey;
-  background-color:rgba(217, 252, 245,0.9);
+  background-color:#3f281a;
+  opacity: .9;
 }
+
+
+
+
+// #menuBtn {
+// 	position: absolute;
+// 	top: 45%; left: 45%;
+// 	width: 5%; height:5%;
+// 	z-index: 2;
+//   will-change: transform;
+//   svg{
+//     display:block;
+//   }
+//   svg polygon:hover{
+//     animation: hexHover 0.7s;
+//     cursor: pointer;
+//   }
+//   span {
+//     position: absolute;
+//     top: 50%; left: 50%;
+//     width: 20px; height: 2px;
+//     padding: 8px 0;
+//     background-clip: content-box;
+//     background-color: white;
+//     transform: translate(-50%, -50%);
+//     pointer-events:none;
+//     &:before, &:after {
+//       position: absolute;
+//       background-color: white;
+//       content: '';
+//       width: 20px; height: 2px;
+//     }
+//     &:before{top: 0;} &:after{bottom: 0px;}
+//   }
+// }
+// @keyframes hexHover{
+//   0%  {stroke-dasharray: 0,0,300;}
+//   10% {stroke-dasharray: 0,20,300;}
+//   100%{stroke-dasharray: 300,20,300;}
+// }

@@ -316,37 +316,6 @@ h6, .h6 {
   color: black !important;
 }
 
-/* None relevant included styling */
-//
-// body,
-// html {
-//   overflow: visible;
-//   height: 100%;
-//   width: 100%;
-// }
-//
-// h1 {
-//   font-size: 50px;
-//   font-family: 'Merriweather', serif !important;
-//   margin-top: -90px;
-//   text-shadow: 1px 1px 1px #000;
-// }
-//
-// p {
-//   font-weight: 300;
-//    text-shadow: 1px 1px 1px #000;
-//   font-family:'Lato', sans-serif !important;
-// }
-//
-// nav {
-//   border-radius: 0px !important;
-//   margin-bottom: 0px !important;
-// }
-
-
-// .modal-body {
-//   height: 400px;
-// }
 
 .navbar-toggler {
   color: transparent;
@@ -358,10 +327,6 @@ h6, .h6 {
   font-family: 'Raleway', sans-serif !important;
   font-size: 150% !important;
   color: #d9fcf5 !important;
-  // background-color: rgba(242, 190, 58, .5)
-  // height: 50%;
-  // margin: 8rem 0rem;
-
 }
 
 .typed-cursor {
@@ -414,7 +379,6 @@ h6, .h6 {
  position: relative;
  overflow: hidden;
  height: 100%;
- // z-index: 100;
 }
 
 .mast-row {
@@ -524,7 +488,6 @@ body:hover {
     // transform: translate(100%,0);
     // -webkit-transform: translate(100%,0);
     // -moz-transform: translate(100%,0);
-
     height: 80%;
     width: 435%;
     opacity: 0;

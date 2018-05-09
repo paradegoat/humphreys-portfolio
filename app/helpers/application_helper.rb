@@ -26,20 +26,20 @@ module ApplicationHelper
         title: 'Home'
       },
       {
-        url: about_me_path,
-        title: 'About Me'
+        url: portfolio_index_path,
+        title: 'Portfolio'
       },
       {
         url: contact_path,
         title: 'Contact'
       },
       {
-        url: blogs_path,
-        title: 'Sample Blog'
+        url: about_me_path,
+        title: 'About Me'
       },
       {
-        url: portfolio_index_path,
-        title: 'Portfolio'
+        url: blogs_path,
+        title: 'Sample Blog'
       }
       # {
       #   url: tech_news_path,

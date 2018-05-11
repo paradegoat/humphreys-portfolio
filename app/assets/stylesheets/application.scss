@@ -37,13 +37,13 @@
 /* Links */
 a,
 a:focus,
-a:hover {
+a:hover, a:active {
   color: #fff;
 }
 
 /* Custom default button */
 .btn-secondary,
-.btn-secondary:hover,
+.btn-secondary:hover, .btn-secondary:active,
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
@@ -137,8 +137,10 @@ h6, .h6 {
 }
 .navbar-brand {
   float: left;
+  font-family: 'Red Moon Rising', 'Raleway';
+  font-size: 200%;
 }
-.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:hover,.nav-masthead .nav-link:active,
 .nav-masthead .nav-link:focus {
   border-bottom-color: #b7eef4;
 }
@@ -355,9 +357,9 @@ h6, .h6 {
 
  //  Typed.js //
 .element {
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Mina', sans-serif !important;
   font-size: 150% !important;
-  color: #d9fcf5 !important;
+  color: #b7eef4 !important;
 }
 
 .typed-cursor {
@@ -504,7 +506,7 @@ width: 0;
 
 
 
-body:hover {
+body:hover, body:active {
   .fade-in-text{
 
   //   // transition: all .2s ease 1s;   3/23

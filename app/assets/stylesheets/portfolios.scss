@@ -328,13 +328,15 @@ transform: scale(2);
 }
 .breaker-icon:hover,
 .breaker-icon:active,
-.breaker-icon.hover {
+.breaker-icon.hover,
+.breaker-icon.active {
   opacity: 1;
   color: #c0392b;
 }
 .breaker-icon:hover:after,
 .breaker-icon:active:after,
-.breaker-icon.hover:after {
+.breaker-icon.hover:after,
+.breaker-icon.active:after {
   border-color: transparent #41fcf6;
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
@@ -348,8 +350,9 @@ transform: scale(2);
   color: white;
   font-size: 150%;
   font-family: 'Red Moon Rising', 'Raleway';
-
 }
+
+
 
 
 
@@ -470,15 +473,7 @@ color: #d9fcf5;
 
 
 
-
-
-.alpha {
-  height: 10vw;
-  width: 10vw;
-}
-
-
-body:hover {
+body:hover, body:active {
   .fade-in-text{
 
   //   // transition: all .2s ease 1s;   3/23
@@ -566,13 +561,15 @@ body:hover {
 }
 .port-icon:hover,
 .port-icon:active,
-.port-icon.hover {
+.port-icon.hover,
+.port-icon.active {
   opacity: 1;
   color: #c0392b;
 }
 .port-icon:hover:after,
 .port-icon:active:after,
-.port-icon.hover:after {
+.port-icon.hover:after,
+.port-icon.active:after  {
   border-color: transparent #41fcf6;
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
@@ -635,13 +632,21 @@ body:hover {
   transition: all 0.3s ease-in-out;
 }
 
-#hexagon:hover{
-  background: #ddb204;
+#hexagon:hover, #hexagon:active{
+  background: #CC6600;
 }
 
-#hexagon:hover:after{
-  border-top: 25px solid #ddb204;
+#hexagon:hover:after, #hexagon:active:after{
+  border-top: 25px solid #CC6600;
 }
-#hexagon:hover:before{
-  border-bottom: 25px solid #ddb204;
+#hexagon:hover:before, #hexagon:active:before{
+  border-bottom: 25px solid #CC6600;
+}
+
+
+
+figure:hover, figure:active{
+  .hive-icon-text{
+    color: #d9fcf5;
+}
 }

@@ -3,27 +3,28 @@
 
 @font-face {
     font-family: 'Red Moon Rising';
-    src: url('./public/fonts/red-moon/red_moon_rising-webfont.eot');
-    src: url('./public/fonts/red-moon/red_moon_rising-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./public/fonts/red-moon/red_moon_rising-webfont.woff2') format('woff2'),
-         url('./public/fonts/red-moon/red_moon_rising-webfont.woff') format('woff'),
-         url('./public/fonts/red-moon/red_moon_rising-webfont.ttf') format('truetype'),
-         url('./public/fonts/red-moon/red_moon_rising-webfont') format('svg');
+    src: url('./assets/fonts/red-moon/red_moon_rising-webfont.eot');
+    src: url('./assets/fonts/red-moon/red_moon_rising-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./assets/fonts/red-moon/red_moon_rising-webfont.woff2') format('woff2'),
+         url('./assets/fonts/red-moon/red_moon_rising-webfont.woff') format('woff'),
+         url('./assets/fonts/red-moon/red_moon_rising-webfont.ttf') format('truetype'),
+         url('./assets/fonts/red-moon/red_moon_rising-webfont') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'space age';
-    src: url('./public/fonts/space-age/space_age-webfont.eot');
-    src: url('./public/fonts/space-age/space_age-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./public/fonts/space-age/space_age-webfont.woff2') format('woff2'),
-         url('./public/fonts/space-age/space_age-webfont.woff') format('woff'),
-         url('./public/fonts/space-age/space_age-webfont.ttf') format('truetype'),
-         url('./public/fonts/space-age/space_age-webfont') format('svg');
+    src: url('./assets/fonts/space-age/space_age-webfont.eot');
+    src: url('./assets/fonts/space-age/space_age-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./assets/fonts/space-age/space_age-webfont.woff2') format('woff2'),
+         url('./assets/fonts/space-age/space_age-webfont.woff') format('woff'),
+         url('./assets/fonts/space-age/space_age-webfont.ttf') format('truetype'),
+         url('./assets/fonts/space-age/space_age-webfont') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+
 
 // FONTS //
 // font-family: 'Red Moon Rising';
@@ -126,7 +127,7 @@ h6, .h6 {
   color: white;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
-  font-family: 'Red Moon Rising';
+  font-family: 'Red Moon Rising', 'Raleway';
   letter-spacing: .3vw;
   font-size: 1.25rem;
 }
@@ -447,7 +448,7 @@ h6, .h6 {
  opacity: 0;
  font-weight: bolder;
  letter-spacing: 2px;
- font-family: 'Red Moon Rising';
+ font-family: 'Red Moon Rising', 'Raleway';
  border-radius: 1vw;
  -webkit-transition: all 2s ease-out;
 -webkit-transform: scale(2);
@@ -467,7 +468,7 @@ transform: scale(2);
  position: relative;
  color: #d9fcf5;
  opacity: 1;
- font-family: 'Red Moon Rising';
+ font-family: 'Red Moon Rising','Raleway';
  // visibility: hidden;
 }
 

@@ -1,3 +1,51 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.google-map {
+  margin: 3vw;
+  height: 25vw;
+  // border: 1px solid blue;
+}
+
+.card{
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-image: image-url('contact-bee-light.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: none;
+}
+
+.about-header {
+  font-family: 'Mina', sans-serif;
+}
+
+.about-pic {
+  margin-left: 2vw;
+}
+
+.about-body {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+  margin: 0vw 2vw;
+}
+
+.contact-header {
+  font-family: 'Mina', sans-serif;
+}
+.contact-body {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+}
+
+
+.contact-email a{
+  font-size: 125%;
+  color: black !important;
+}

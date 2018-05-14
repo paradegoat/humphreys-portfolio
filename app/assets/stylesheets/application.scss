@@ -182,12 +182,10 @@ h6, .h6 {
 
 
  .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  // margin: 2vw 0vw;
-  // line-height: 60px; /* Vertically center the text there */
+  padding: 2vw;
   background-color: transparent;
 }
 
@@ -316,48 +314,45 @@ h6, .h6 {
   color: blue;
 }
 
-.card{
-  padding-bottom: 30px;
-  padding-top: 30px;
-  background-image: image-url('contact-bee-light.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+// .card{
+//   padding-bottom: 30px;
+//   padding-top: 30px;
+//   background-image: image-url('contact-bee-light.jpg');
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+// }
+//
+// .about-header {
+//   font-family: 'Mina', sans-serif;
+// }
+//
+// .about-pic {
+//   margin-left: 2vw;
+// }
+//
+// .about-body {
+//   font-family: 'Raleway', sans-serif;
+//   letter-spacing: 1px;
+//   padding-left: 1vw;
+//   padding-right: 1vw;
+//   padding-top: 2vw;
+// }
+//
+// .contact-header {
+//   font-family: 'Mina', sans-serif;
+// }
+// .contact-body {
+//   font-family: 'Raleway', sans-serif;
+//   letter-spacing: 1px;
+// }
+//
+//
+// .contact-email a{
+//   font-size: 125%;
+//   color: black !important;
+// }
 
-.about-header {
-  font-family: 'Mina', sans-serif;
-}
-
-.about-pic {
-  margin-left: 2vw;
-}
-
-.about-body {
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 1px;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-top: 2vw;
-}
-
-.contact-header {
-  font-family: 'Mina', sans-serif;
-}
-.contact-body {
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 1px;
-}
-
-
-.contact-email a{
-  font-size: 125%;
-  color: black !important;
-}
-
-.google-map {
-  margin: 3vw;
-}
 
 .navbar-toggler {
   color: transparent;

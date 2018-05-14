@@ -1,79 +1,63 @@
-
 <div class="portfolio-masthead">
-
-  <!-- <%= image_tag(
-    'honeycomb-gold-25percent.gif',
-    id: 'overlay-img',
-    autoplay: true,
-    loop: true,
-    muted: true
-  )
-  %> -->
-
   <section class="jumbotron container-fluid">
-
-    <div class="row mast-row">
-      <div class="col align-self-center">
+    <div class="row mast-row align-items-center">
+      <div class="col-12 align-self-center">
         <h1 class="jumbotron-heading text-center">welcome to my honey house</h1>
       </div>
     </div>
-
     <div class="row mast-row">
       <p class="col-lg-4 offset-lg-8 col-md-6 offset-md-8 col-sm-4 offset-6 align-self-center">
         <%= link_to 'Resume', about_me_path, class: 'btn btn-lg btn-secondary mast-button' %>
       </p>
     </div>
-
     <div class="row mast-row justify-content-center">
       <p class="col-lg-4 col-md-5 col-sm-10 align-self-center text-center fade-in-text">Developer / Beekeeper / Nice Person </p>
     </div>
-
   </section>
 </div>
-
 <div class="breaker">
   <div class="container">
     <div class="row justify-content-around">
       <figure>
         <div class="breaker-icon">
-      <div id="hexagon"><%= link_to image_tag("github.png", width: 60), "http://github.com/paradegoat/", :target => "_blank" %></div>
-    </div>
-      <figcaption class="hive-icon-text text-center">
-        github
-      </figcaption>
-    </figure>
-    <figure>
-      <div class="breaker-icon">
-    <div id="hexagon"><%= link_to image_tag("linkedin.png", width: 60), "https://www.linkedin.com/in/geoff-humphreys", :target => "_blank" %></div>
-  </div>
-    <figcaption class="hive-icon-text text-center">
-      linkedin
-    </figcaption>
-  </figure>
-  <figure class="alpha">
-    <div class="breaker-icon">
-  <div id="hexagon"><%= link_to image_tag("connect.png", width: 60), contact_path %></div>
-</div>
-  <figcaption class="hive-icon-text text-center">
-    contact
-  </figcaption>
-</figure>
-<figure>
-  <div class="breaker-icon">
-<div id="hexagon"><%= link_to image_tag("resume.png", width: 60), "https://paradegoat.github.io/portfolio/public/images/Humphreys.Geoff_Resume.pdf", :target => "_blank" %></div>
-</div>
-<figcaption class="hive-icon-text text-center">
-  resume
-</figcaption>
-</figure>
-<figure>
-  <div class="breaker-icon">
-<div id="hexagon"><%= link_to image_tag("down-arrow.png", width: 60), "#section2" %></div>
-</div>
-<figcaption class="hive-icon-text text-center">
-  recent work
-</figcaption>
-</figure>
+          <div id="hexagon"><%= link_to image_tag("github.png", width: 60), "http://github.com/paradegoat/", :target => "_blank" %></div>
+        </div>
+        <figcaption class="hive-icon-text text-center">
+          github
+        </figcaption>
+      </figure>
+      <figure>
+        <div class="breaker-icon">
+          <div id="hexagon"><%= link_to image_tag("linkedin.png", width: 60), "https://www.linkedin.com/in/geoff-humphreys", :target => "_blank" %></div>
+        </div>
+        <figcaption class="hive-icon-text text-center">
+          linkedin
+        </figcaption>
+      </figure>
+      <figure class="alpha">
+        <div class="breaker-icon">
+          <div id="hexagon"><%= link_to image_tag("connect.png", width: 60), contact_path %></div>
+        </div>
+        <figcaption class="hive-icon-text text-center">
+          contact
+        </figcaption>
+      </figure>
+      <figure>
+        <div class="breaker-icon">
+          <div id="hexagon"><%= link_to image_tag("resume.png", width: 60), "https://paradegoat.github.io/portfolio/public/images/Humphreys.Geoff_Resume.pdf", :target => "_blank" %></div>
+        </div>
+        <figcaption class="hive-icon-text text-center">
+          resume
+        </figcaption>
+      </figure>
+      <figure>
+        <div class="breaker-icon">
+          <div id="hexagon"><%= link_to image_tag("down-arrow.png", width: 60), "#section2" %></div>
+        </div>
+        <figcaption class="hive-icon-text text-center">
+          recent work
+        </figcaption>
+      </figure>
 
 <!-- These were the previous icons that match the portfolio_item link icons -->
       <!-- <figure>

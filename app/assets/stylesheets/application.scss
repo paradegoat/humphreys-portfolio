@@ -182,71 +182,8 @@ h6, .h6 {
   font-size: 2.25rem;
 }
 
-///////////////////////
-//// Masthead ///////////////////////////////////////////////////////////////
-//////////////////////
-// .masthead {
-//   margin-bottom: 2rem;
-// }
-
-
-
-.portfolio-masthead{
- position: relative;
- overflow: hidden;
- height: 100%;
-}
-
-.mast-row {
- height: 33%;
-}
-
-.portfolio-masthead:before {
-   content: ' ';
-   display: block;
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   z-index: 1;
-   opacity: 0.9;
-   background-image: transparent;
-   background-repeat: no-repeat;
-   background-position: 50% 50%;
-   -ms-background-size: cover;
-   -o-background-size: cover;
-   -moz-background-size: cover;
-   -webkit-background-size: cover;
-   background-size: cover;
-}
-
-
-.portfolio-masthead h1{
- z-index: 4;
- position: relative;
- padding: 1vw;
- margin: 0vw 20vw;
- margin-top: 10rem;
- color: #d9fcf5;
- opacity: 0;
- font-weight: bolder;
- letter-spacing: 2px;
- font-family: 'Red Moon Rising', 'Raleway';
- border-radius: 1vw;
- -webkit-transition: all 2s ease-out;
--webkit-transform: scale(2);
--ms-transition: all 2s ease-out;
--ms-transform: scale(2);
--moz-transition: all 2s ease-out;
--moz-transform: scale(2);
-transition: all 2s ease-out;
-transform: scale(2);
-
-}
 
 .portfolio-masthead p{
- z-index: 3;
  font-size: 200%;
  letter-spacing: 1px;
  position: relative;
@@ -314,82 +251,6 @@ width: 0;
 //   color: green;
 // }
 
-///////////////////////
-//// Hover ///////////////////////////////////////////////////////////////
-//////////////////////
-body:hover, body:active {
-  .fade-in-text{
-    visibility: visible;
-    animation-name: fadeInOut;
-    animation-delay: 0s;
-    animation-duration: 3s;
-    opacity: 1;
-  }
-
-  #overlay-img{
-    height: 80%;
-    width: 435%;
-    opacity: 0;
-  }
-
-  .portfolio-masthead h1{
-    -webkit-transition: all 2s ease-out;
-    -webkit-transform: scale(1);
-    -ms-transition: all 2s ease-out;
-    -ms-transform: scale(1);
-    -moz-transition: all 2s ease-out;
-    -moz-transform: scale(1);
-    transition: all 2s ease-out;
-    transform: scale(1);
-    margin-top: 0;
-    opacity: 1;
-  }
-
-  .application-nav{
-    background-color: transparent;
-    transition: all 2s;
-  }
-
-}
-
-///////////////////////
-//// Responsive ///////////////////////////////////////////////////////////////
-//////////////////////
-@media (min-width: 48em) {
-  .navbar-brand {
-    float: left;
-  }
-
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 65rem;; /* Must be percentage or pixels for horizontal alignment */
-  }
-
-  .jumbotron {
-    padding-top: calc(var(--jumbotron-padding-y) * 2);
-    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
-  }
-}
-
-@media (min-width: 62em) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 42rem;
-  }
-}
 
 
 

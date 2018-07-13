@@ -1,44 +1,37 @@
-<div class="sheet">
-  <div class="row">
-    <div class="col-md-6 col-sm-12">
-      <div class="card mb-4 box-shadow" data-id="<%= portfolio_item.id %>">
-        <!-- <a href='<%= portfolio_show_path(portfolio_item) %>'> -->
-          <%= image_tag portfolio_img(portfolio_item.thumb_image, 'thumb'), width: '100%' %>
-        <!-- </a> -->
+<div class="col-md-6 col-sm-12">
+  <div class="card box-shadow" data-id="<%= portfolio_item.id %>">
+    <div class="hovereffect">
+      <%= image_tag portfolio_img(portfolio_item.thumb_image, 'thumb'), width: '100%' %>
+      <div class="overlay">
+        <h2><%= portfolio_item.title %></h2>
+        <br />
+        <p class="card-text text-center">
+          <%= portfolio_item.subtitle %>
+        </p>
+        <p class="card-text"><%= markdown portfolio_item.body %></p>
       </div>
     </div>
-    <div class="col-md-6 col-sm-12 align-self-center">
-      <div class="card-body">
-        <p class="card-text text-center">
-          <span class="project-title"><%= portfolio_item.title %></span>
-          <br />
-           <%= portfolio_item.subtitle %>
-        </p>
-        <hr />
-        <p class="card-text"><%= markdown portfolio_item.body %></p>
-        <div class="pink">
-          <div class="row justify-content-around">
-            <div class="col-6 text-center">
-              <figure>
-                <div class="port-icon">
-                  <%= link_to image_tag("live-site.png"), "#{portfolio_item.Live_Site}", :target => "_blank" %>
-                </div>
-                <figcaption class="hive-icon-text">
-                  finished project
-                </figcaption>
-              </figure>
+    <div class="pink">
+      <div class="row justify-content-center">
+        <div class="col-5 text-center">
+          <figure>
+            <div class="port-icon">
+              <%= link_to image_tag("live-site.png"), "#{portfolio_item.Live_Site}", :target => "_blank" %>
             </div>
-            <div class="col-6 text-center">
-              <figure>
-                <div class="port-icon">
-                  <%= link_to image_tag("honey-comb.png"), "#{portfolio_item.git_url}", :target => "_blank" %>
-                </div>
-                <figcaption class="hive-icon-text">
-                  code on github
-                </figcaption>
-              </figure>
+            <figcaption class="hive-icon-text">
+              finished project
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-5 text-center">
+          <figure>
+            <div class="port-icon">
+              <%= link_to image_tag("honey-comb.png"), "#{portfolio_item.git_url}", :target => "_blank" %>
             </div>
-          </div>
+            <figcaption class="hive-icon-text">
+              code on github
+            </figcaption>
+          </figure>
         </div>
       </div>
     </div>

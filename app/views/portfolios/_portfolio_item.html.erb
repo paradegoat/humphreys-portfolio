@@ -12,12 +12,10 @@
       </div>
     </div>
     <div class="pink">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center align-items-center">
         <div class="col-6 text-center">
           <figure>
-            <div class="port-icon">
-              <%= link_to image_tag("live-site.png"), "#{portfolio_item.Live_Site}", :target => "_blank" %>
-            </div>
+              <%= link_to image_tag("live-site.png"), "#{portfolio_item.Live_Site}", class: "port-icon", :target => "_blank" %>
             <figcaption class="hive-icon-text">
               <%= link_to "finished project", "#{portfolio_item.Live_Site}", :target => "_blank" %>
             </figcaption>
@@ -25,11 +23,9 @@
         </div>
         <div class="col-6 text-center">
           <figure>
-            <div class="port-icon">
-              <%= link_to image_tag("honey-comb.png"), "#{portfolio_item.git_url}", :target => "_blank" %>
-            </div>
+              <%= link_to image_tag("honey-comb.png"), "#{portfolio_item.git_url}", class: "port-icon", :target => "_blank" %>
             <figcaption class="hive-icon-text">
-              <%= link_to "code on github", "#{portfolio_item.Live_Site}", :target => "_blank" %>
+              <%= link_to "code on github", "#{portfolio_item.git_url}", :target => "_blank" %>
             </figcaption>
           </figure>
         </div>

@@ -10,19 +10,19 @@
           <div class="about-pic col-lg-4 col-md-12 text-center">
             <%= image_tag "profile.jpg", width: 300, alt: "profile image" %>
           </div>
-          <div class=" text-center col-lg-7">
-            <p class="about-body">
+          <div class=" text-center col-lg-7 mx-3 mx-sm-0">
+            <h5 class="about-body">
               Hello, my name's Geoff Humphreys. I’m a developer currently living in Durham, NC. Ruby on Rails is the language and framework I know best, but I want to learn as much as I can before I shuffle off.
               <br />
               <br />
               Outside of work, I keep bees in the backyard, I love Ennio Morricone, and I have a dog named Merle. My wife and I would love to see all 58 national parks from the front door of our 1989 Airsteam Excella.
               <br />
               <br />
-              If you need any work done, or just want to talk, send me email!
+              If you need any work done, or just want to talk, send me a message!
               <br />
               <br />
-              <p class="contact-email"><a href="mailto:humphreys.geoff@gmail.com?subject=PortfolioContact" "email me">humphreys.geoff@gmail.com</a> </p>
-            </p>
+            </h5>
+            <%= link_to image_tag("connect.png", width: 60) + 'CONTACT', contact_path, :class => "btn btn-outline-dark contact-box" %>
           </div>
         </div>
       </div>

@@ -395,14 +395,15 @@ transform: scale(2);
 }
 
 #hexagon:hover, #hexagon:active{
-  background: #CC6600;
+  background: #AA7542;
+
 }
 
 #hexagon:hover:after, #hexagon:active:after{
-  border-top: 25px solid #CC6600;
+  border-top: 25px solid #AA7542;
 }
 #hexagon:hover:before, #hexagon:active:before{
-  border-bottom: 25px solid #CC6600;
+  border-bottom: 25px solid #AA7542;
 }
 
 
@@ -419,17 +420,19 @@ transform: scale(2);
 .card {
   float: left;
   width: 100%;
-  padding: .5rem;
+  padding: 1rem;
   margin-bottom: 2rem;
-  background-color: #3d3333;
+  background:linear-gradient(12deg,#53703c,#8d8f69);
+  box-shadow: 8px 6px 10px black;
+  border-radius: 3%;
+
 }
 
 .card img {
-    width: 100%; /* You can set the dimensions to whatever you want */
-    height: 25rem;
-    object-fit: cover;
-    object-position: top;
-    margin: 3px;
+  width: 100%; /* You can set the dimensions to whatever you want */
+  height: 25rem;
+  object-fit: cover;
+  object-position: top;
 }
 
 .card-body {
@@ -502,7 +505,7 @@ transform: scale(2);
 .port-icon:active,
 .port-icon.hover,
 .port-icon.active {
-  background-color: rgba(241, 197, 57, .5);
+  background-color: #AA7542;
 }
 
 .port-icon:hover:after,
@@ -529,7 +532,7 @@ transform: scale(2);
 
 figure:hover, figure:active{
   .hive-icon-text a{
-    color: #ba6d35;
+    color: #F5CFA9;
   }
 }
 
@@ -546,7 +549,7 @@ figure:hover, figure:active{
   position: relative;
   text-align: center;
   cursor: default;
-  background: #d18c14;
+  background: #AA7542;
 }
 
 .hovereffect .overlay {

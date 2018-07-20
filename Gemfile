@@ -48,5 +48,7 @@ gem 'twitter', '~> 6.2'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
 gem 'newrelic_rpm'
+gem 'mail_form', '~> 1.7', '>= 1.7.1'
+
 
 ruby "2.4.0"

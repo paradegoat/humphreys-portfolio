@@ -27,12 +27,13 @@
 }
 
 .about-body {
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 1px;
+  font-family: 'Mina', sans-serif !important;
+  font-weight: bolder;
+  letter-spacing: 2px;
   padding-left: 2vw;
   padding-right: 2vw;
   padding-top: 2vw;
-  margin: 0vw 4vw;
+  margin: 0vw 2vw;
   margin-top: 2vw;
 }
 
@@ -45,19 +46,36 @@
   font-family: 'Mina', sans-serif;
 }
 .contact-body {
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 1px;
+  font-family: 'Mina', sans-serif;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-.contact-email a{
-  font-size: 125%;
-  color: black !important;
-}
+// .contact-email a{
+//   font-size: 125%;
+//   color: black !important;
+// }
 
 .google-map {
-  margin: 3vw;
+  margin: 1vw;
   height: 25vw;
-  // border: 1px solid blue;
+}
+
+.contact-box {
+  background-color: transparent;
+  border: 2px solid black;
+  font-family: 'Mina', sans-serif !important;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.current-home {
+  font-family: 'Mina', sans-serif !important;
+  font-weight: bolder;
+  letter-spacing: 2px;
 }
 
 ///////////////////////
